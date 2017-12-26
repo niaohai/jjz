@@ -1,0 +1,13 @@
+.top_img{
+  display: flex
+}
+.top_img>image{
+  width: 0px;
+  flex-grow: 1;
+  height: 200rpx;
+  margin: 0 32rpx;
+}
+.bank{
+  font-size: 36rpx;
+  margin: 20rpx;
+}

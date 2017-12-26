@@ -1,0 +1,14 @@
+<view class="choose">
+  <view wx:for="{{choose}}" wx:key="{{index}}">{{item}}</view>
+</view>
+<view wx:for="{{content}}" wx:for-item="content" class="content" bindtap='goods_detil' wx:key="{{index}}">
+  <image src="{{content.pic}}"></image>
+  <view class="right_content">
+    <text>{{content.title}}</text>
+    <text>{{content.introduce}}</text>
+    <view wx:for="{{content.sale}}" class="sale" wx:key="{{index}}">
+      <view>{{item.bank}}</view>
+      <text>{{item.content}}</text>
+    </view>
+  </view>
+</view>

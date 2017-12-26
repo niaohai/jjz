@@ -1,0 +1,39 @@
+.top{
+  height: 280rpx;
+  background-color: grey;
+  width: 100%;
+}
+.my_type{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+.my_type>text{
+  height: 120rpx;
+  width: 0;
+  flex-grow: 1;
+  font-size: 36rpx;
+  text-align: center;
+  line-height: 120rpx
+}
+
+.member_centre{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20rpx;
+}
+.member_centre_part{
+  display: flex;
+  flex-direction: column;
+  width: 0;
+  flex-grow: 1;
+  margin: 20rpx;
+}
+.member_centre_part>image{
+  height: 100rpx;
+  width: 100rpx;
+}
+.member_centre_part>text{
+  text-align: center;
+  font-size: 28rpx
+}

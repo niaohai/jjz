@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/weather/weather",
+    "pages/setting/setting",
+    "pages/setting/goods_list/goods_list",
+    "pages/setting/goods_detil/goods_detil",
+    "pages/find/find",
+    "pages/find/goods/goods",
+    "pages/my/my",
+    "pages/my/login/login",
+    "pages/map/map"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "卡信",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "selectedIconPath": "images/ico-home-d.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "卡积分",
+        "selectedIconPath": "images/ico-home-d.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "selectedIconPath": "images/ico-home-d.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "selectedIconPath": "images/ico-home-d.png"
+      }
+    ]
+  }
+}

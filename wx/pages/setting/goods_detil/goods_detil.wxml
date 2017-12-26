@@ -1,0 +1,7 @@
+<image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="top_pic"></image>
+<view class="big_title">{{title}}</view>
+<view class="string"></view>
+<view>
+<view>{{price.now_price}}</view>
+<text>{{price.real_price}}</text>
+</view> 

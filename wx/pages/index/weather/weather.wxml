@@ -1,0 +1,17 @@
+<view class="top_weather">
+  <text>{{weatherData.city}}</text>
+  <view>{{weatherData.date}}<text class="te_o"></text></view>
+  <view>{{weatherData.weatherDesc}}</view>
+  <view>
+    <text>{{weatherData.wind}}</text>
+    <text>{{weatherData.temperature}}</text>
+  </view>
+</view>
+<block wx:for="{{futureWeather}}" wx:key="{{index}}">
+  <view style="border:1px solid #ccc; margin:5px">
+    <view>{{item.date}}</view>
+    <view>{{item.temperature}}</view>
+    <view>{{item.weather}}</view>
+    <view>{{item.wind}}</view>
+  </view>
+</block>

@@ -1,0 +1,33 @@
+.top_weather {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.top_weather>text {
+  margin-bottom: 100rpx;
+}
+
+.top_weather>view:nth-of-type(1) {
+  font-size: 50px;
+}
+
+.te_o {
+  position: relative;
+  top: -56px;
+  left: 26px;
+  font-size: 20px;
+  display: block;
+  height: 10rpx;
+  width: 10rpx;
+  border: 3px solid black;
+  border-radius: 20rpx;
+}
+
+.top_weather>view:nth-of-type(3) {
+  margin-top: 200rpx;
+  width: 730rpx;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,5 @@
+<view class="top_img">
+  <image wx:for="{{top_img}}" src="{{item}}" wx:key="{{index}}"></image>
+</view>
+<view class='grey'></view>
+<text wx:for="{{bank}}" class="bank" wx:key="{{index}}">{{item}}</text>

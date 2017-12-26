@@ -1,0 +1,24 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.grey {
+  height: 16rpx;
+  background-color: #eee;
+}
+.string{
+    height: 2rpx;
+  background-color: gainsboro;
+}
+.big_title{
+  font-size: 36rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  padding: 0 20rpx
+}

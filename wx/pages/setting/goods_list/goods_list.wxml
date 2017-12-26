@@ -1,0 +1,14 @@
+<view wx:for="{{goods_list}}" bindtap='go_detil' wx:key="{{index}}">
+  <view class="goods_list">
+    <image src='{{item.goods_pic}}'></image>
+    <view>
+      <view>{{item.title}}</view>
+      <text>{{item.price}}</text>
+      <view class="goods_bank">
+        <text>{{item.bank}}</text>
+        <text>市场参考价:{{item.real_price}}</text>
+      </view>
+    </view>
+  </view>
+  <view class='grey'></view>
+</view>

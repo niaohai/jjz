@@ -1,0 +1,19 @@
+<view class="top">
+
+</view>
+<view class="my_type">
+  <text wx:for="{{my_type}}" wx:key="{{index}}">{{item}}</text>
+</view>
+<view class="grey"></view>
+<view class="big_title">会员中心</view>
+<view class="string"></view>
+<view class="member_centre">
+  <view wx:for="{{member_centre}}" wx:for-item="member" class="member_centre_part" wx:key="{{index}}">
+    <image src="{{member.pic}}"></image>
+    <text>{{member.title}}</text>
+  </view>
+</view>
+<view class="grey"></view>
+<view class="big_title">我的订单</view>
+<view class="string"></view>
+<text bindtap='login'>啦啦啦拉拉啦啦啦`</text>

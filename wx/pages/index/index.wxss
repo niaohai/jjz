@@ -1,0 +1,57 @@
+.slide-image {
+  width: 100%;
+  height: 150;
+}
+
+.under {
+  margin-top: 40rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 220rpx;
+}
+
+.under>view {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 14px;
+}
+
+.top_image {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+
+
+.type_choose {
+  display: flex;
+  height: 80rpx;
+  align-items: center;
+}
+
+.type_choose>view {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.event {
+  display: flex;
+  justify-content: space-between;
+  margin: 24rpx 24rpx;
+}
+
+.event>view {
+  font-size: 14px;
+}
+
+.event>image {
+  height: 120rpx;
+  width: 120rpx;
+  float: right;
+}
+.red{
+  color: red
+}
+.black{
+  color: black
+}

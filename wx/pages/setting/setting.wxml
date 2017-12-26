@@ -1,0 +1,15 @@
+<view class="search">
+  <input confirm-type="search"></input>
+  <view>查找</view>
+</view>
+<view wx:for="{{search}}" wx:for-item="big_search" wx:key="{{index}}">
+  <view class='search_content'>
+    <view class="small_search" bindtap='goods_detil'>
+      <view wx:for="{{big_search.content}}" wx:key="{{index}}">
+        <image src="{{item.small_pic}}" class="small_pic"></image>
+        <text>{{item.title}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="grey"></view>
+</view>

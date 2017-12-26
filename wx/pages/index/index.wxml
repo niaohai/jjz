@@ -1,0 +1,27 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" >
+  <block wx:key="index" wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class="under">
+  <view wx:key="index" wx:for="{{under_pic}}" >
+    <image src='{{item.pic_src}}' class='top_image'></image>
+    <view class="pic" bindtap='test_weather'>{{item.title}}</view>
+  </view>
+</view>
+<view class="grey"></view>
+<view class="type_choose">
+  <view wx:for="{{type_choose}}" wx:key="{{index}}" class="{{_num == index?'red':'black'}}" data-num = "{{index}}" bindtap='item_choose'>{{item}}</view>
+</view>
+<view class="grey"></view>
+<view>
+  <view wx:for="{{event}}" wx:key="{{index}}">
+    <view class="event">
+      <view>{{item.title}}</view>
+      <image src='{{item.pic}}'></image>
+    </view>
+    <view class="grey"></view>
+  </view>
+</view>

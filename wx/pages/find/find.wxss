@@ -1,0 +1,39 @@
+.choose{
+  display: flex;
+  justify-content: space-around
+}
+.content{
+  display: flex;
+  margin: 20rpx
+}
+.content>image{
+width: 240rpx;
+height: 240rpx;
+  margin: 20rpx
+}
+.right_content{
+  display: flex;
+  flex-direction: column;
+    margin: 0 20rpx
+}
+.right_content>text{
+  font-size: 32rpx;
+    margin: 4rpx;
+    position: relative;
+    left: -4rpx;
+}
+.sale{
+  display: flex
+}
+.sale>text{
+  font-size: 28rpx;
+  position: relative;
+  top: 4rpx
+}
+.sale>view{
+  border: 1px solid black;
+  padding: 4rpx;
+    font-size: 28rpx;
+    margin-bottom: 8rpx;
+    margin-right: 8rpx;
+}

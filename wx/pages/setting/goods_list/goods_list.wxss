@@ -1,0 +1,23 @@
+.goods_list{
+  display: flex;
+  padding: 32rpx;
+}
+
+.goods_list text{
+  font-size: 28rpx;
+  margin-bottom: 16rpx;
+}
+.goods_list>image{
+  width: 160rpx;
+  height: 160rpx;
+  margin-right: 32rpx;
+}
+.goods_bank{
+  display: flex;
+}
+.goods_bank>text:nth-of-type(1){
+  border: 1px solid grey;
+  border-radius: 20rpx;
+  margin-right: 60rpx;
+  padding: 0px 20rpx;
+}
